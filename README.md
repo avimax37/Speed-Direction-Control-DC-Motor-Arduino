@@ -1,3 +1,3 @@
 ▶️Description:
 
-Code to control the Speed and Direction of a DC Motor using Arduino
+Code to control the Speed and Direction of a DC Motor using Arduino.
