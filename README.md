@@ -1,1 +1,1 @@
-# Speed-Direction-Control-DC-Motor-Arduino
+Code to control the Speed and Direction of a DC Motor using Arduino
