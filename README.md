@@ -12,5 +12,5 @@ In this project, we demonstrated how to achieve Speed and Direction Control of a
 
 Avinaba Bera - [@IainSchneider](https://twitter.com/IainSchneider) - avimax37@gmail.com<br>
 
-Project Article: (https://uemkprojects2023.blogspot.com/2022/08/speed-control-of-dc-motor-uemk.html)<br>
-Project Link: [(https://github.com/avimax37/Speed-Direction-Control-DC-Motor-Arduino)]
+Project Article: [blogger.com/Speed-Control-of-DC-Motor-Using-Arduino](https://uemkprojects2023.blogspot.com/2022/08/speed-control-of-dc-motor-uemk.html)<br>
+Project Link: [github.com/avimax37/Speed-Direction-Control-DC-Motor-Arduino](https://github.com/avimax37/Speed-Direction-Control-DC-Motor-Arduino)
