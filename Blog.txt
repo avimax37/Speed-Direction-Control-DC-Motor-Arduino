@@ -1,0 +1,77 @@
+In this project, we demonstrated how to achieve Speed and Direction Control of a DC Motor using Arduino UNO. It is a simple project using Arduino UNO and a few easily available components to control the speed of rotation of a DC motor and also its direction of rotation.
+
+#Introduction
+
+A Direct Current (DC) motor is a type of electric machine that converts electrical energy into mechanical energy. DC motors take electrical power through direct current and converts this energy into mechanical rotation. DC motors are found everywhere: electronics, toys, fans, tools, discs, pumps etc.
+
+DC motor include two key components: a Stator and an Armature. The stator is the stationary part of motor, while the armature rotates. In a DC motor, the stator provides a rotating magnetic field that drives the armature to rotate.
+
+There are different types of DC motors: Brushed DC motor, Brushless DC motor, Stepper DC motor, Shunt DC motor, Series DC motor.
+
+Generally, when a DC motor is associated with any microcontroller based system, it is often connected using a Motor Driver IC. A Motor Driver IC provides the necessary current for the motor to run. It can also control the direction of the rotation.
+
+In this project, an Arduino-based speed and direction control of a DC motor without using Motor Driver IC is designed. A DC Motor can't be connected to a Microcontroller as the output current of the Microcontroller is very small and it cannot drive the motor.
+
+Hence, we use transistors to form an H-bridge to drive the motor. The circuit diagram, description and its working are mentioned below.
+
+#Circuit Diagram
+
+#Components Required
+
+*Arduino UNO
+*USB Cable
+*Resistors (R1, R2, R3, R4) - 1 KΩ
+*Diodes (D1, D2, D3, D4) - 1N4007
+*Transistor (Q1, Q2, Q3, Q4) - 2N2222
+*DC Motor
+*Push Button
+*Potentiometer - 10 KΩ
+*Connecting Wires
+*Breadboard
+*9V Battery
+*Battery Connector
+
+##Arduino UNO
+
+Arduino UNO is a microcontroller based based on the ATmega328P. It has 14 digital input/output pins (of which 6 can be used as PWM output), 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adaptor or battery to get started. Arduino UNO is responsible for controlling the speed and direction control of the motor with the help of other components.
+
+##2N2222
+
+It is an NPN transistor with an output current of 800mA. The maximum output current that is available from Arduino's I/O pins is 50mA, which is not sufficient to drive a motor. Hence, four transistors with high current capability are used.
+
+##1N4007
+
+It is a rectifier diode, designed specifically for circuits that need to convert alternating current to direct current. It can pass currents of up to 1A, and have peak inverse voltage (PIV) rating of 1000V.
+
+#Circuit Design
+
+Arduino is the main processing unit of the project. The wiper terminal of the POT is connected to the Analog Pin (A0) of the Arduino. The other terminals are connected to Vcc and GND. Four transistors are connected as shown in the circuit diagram. With the load i.e. a DC Motor in the center, they form an H-Bridge. Transistors Q1 and Q4 from the backward direction path while transistors Q2 and Q3 form forward rotation path.
+The inputs to the transistors are given from the Arduino. The pins 3 and 2 of the Arduino are connected to the base of Q1 and Q4 respectively. Pins 5 and 4 are connected to base of Q2 and Q3 respectively. All these connections are made through four 1 KΩ resistors.
+
+A DC Motor is an inductive load and can produce back EMF when we are changing the direction. In order to eliminate the effect of any back EMF, four diodes are connected across the collector and emitter of each transistor.
+
+#Working
+
+The aim of this project is to control the speed and direction of a DC Motor without using a Motor Driver IC. Hence, we need to form an H-Bridge using transistors in order to drive the motor. The working of the project is explained here assuming all the connections are made as per the circuit diagram.
+
+The POT is connected to the analog pin A0 of the Arduino. This is used to adjust the speed of the motor. The normal operation of the motor is to rotate in forward direction.
+
+When a button, which is connected to the Pin7 of the Arduino, is activated or pressed, the direction of the rotation is reversed and continue to rotate in that direction until the button is pressed once again.
+
+For forward rotation of the motor, transistors Q2 and Q3 must be turned on. Hence, the output 5 and 4 of the Arduino are high.
+
+The Arduino is programmed to detect a logic low on the Pin 7 when the button is pressed. When the button is pressed once, the transistors Q1 and Q4 must be turned on. Hence, the pins 3 and 2 of Arduino are made high. The motor rotated in reverse direction if the button is pressed once again.
+
+#Note
+
+The project is built using 2N2222 transistors, which has a maximum current rating of 800mA which is enough to drive low current motors. For driving motors with large current requirements, BD139 (up to 1.5A) or other MOSFETs can be used.
+
+#Applications
+
+*The circuit can be used to drive a single DC motor without Motor Driver IC.
+*The circuit can be extended to 2 motors by implementing dual H-Bridge connections.
+*Can be used in simple robotic applications to control direction and speed of single motor.
+
+#Conclusion
+
+In this project we have made our own H-Bridge out of transistors and diodes instead of using L293D Motor Driver IC, which no doubt would do the same job as the H-Bridge. But, in this project we can see that the H-Bridge circuit is very easy to understand, simple to make and very cost effective. We can easily control the speed and direction of the DC Motor without even using a Motor Driver IC. Moreover, from this project we also know how to make and use an H-Bridge circuit.
