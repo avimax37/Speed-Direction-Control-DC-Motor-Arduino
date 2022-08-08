@@ -60,6 +60,8 @@ For forward rotation of the motor, transistors Q2 and Q3 must be turned on. Henc
 
 The Arduino is programmed to detect a logic low on the Pin 7 when the button is pressed. When the button is pressed once, the transistors Q1 and Q4 must be turned on. Hence, the pins 3 and 2 of Arduino are made high. The motor rotated in reverse direction if the button is pressed once again.
 
+#Source Code: Speed and Direction Control of a DC Motor using Arduino
+
 #Note
 
 The project is built using 2N2222 transistors, which has a maximum current rating of 800mA which is enough to drive low current motors. For driving motors with large current requirements, BD139 (up to 1.5A) or other MOSFETs can be used.
