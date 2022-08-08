@@ -14,8 +14,6 @@ In this project, an Arduino-based speed and direction control of a DC motor with
 
 Hence, we use transistors to form an H-bridge to drive the motor. The circuit diagram, description and its working are mentioned below.
 
-#Circuit Diagram
-
 #Components Required
 
 *Arduino UNO
