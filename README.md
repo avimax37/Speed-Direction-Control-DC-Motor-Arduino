@@ -29,13 +29,13 @@ In this project, we demonstrated how to achieve Speed and Direction Control of a
 Contributions are what make the GitHub community such an amazing place to learn, inspire, and create. These are all the members that have directly contributed towards the completion of this project.
 
 Vishal Kumar Shaw
-[![LinkedIn][linkedin-shield]][linkedin-url2]
+[![LinkedIn][linkedin-shield]][linkedin-url2] &emsp;
 Sneha Shaw
-[![LinkedIn][linkedin-shield]][linkedin-url3]
+[![LinkedIn][linkedin-shield]][linkedin-url3] &emsp;
 Masud Gazi
-[![LinkedIn][linkedin-shield]][linkedin-url4]
+[![LinkedIn][linkedin-shield]][linkedin-url4] &emsp;
 Gurjot Singh
-[![LinkedIn][linkedin-shield]][linkedin-url5]
+[![LinkedIn][linkedin-shield]][linkedin-url5] &emsp;
 Deepsagar Boral
 [![LinkedIn][linkedin-shield]][linkedin-url6]
 
