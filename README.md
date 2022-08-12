@@ -12,7 +12,7 @@ In this project, we demonstrated how to achieve Speed and Direction Control of a
 
 ## Built With
 
-[![C++][c++-shield]]
+[![C++][c++-shield]][c++-url]
 
 <!-- APPLICATIONS -->
 
