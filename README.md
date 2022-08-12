@@ -12,7 +12,7 @@ In this project, we demonstrated how to achieve Speed and Direction Control of a
 
 ## Built With
 
-[![C++][c++-shield]][c++-url]
+![C++][c++-shield]
 
 <!-- APPLICATIONS -->
 
@@ -77,4 +77,3 @@ Avinaba Bera
 [github-url]: https://github.com/avimax37/Speed-Direction-Control-DC-Motor-Arduino
 
 [c++-shield]: https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white
-[c++-url]: https://m.cplusplus.com
