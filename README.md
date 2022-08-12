@@ -31,16 +31,16 @@ Contributions are what make the GitHub community such an amazing place to learn,
 #### Vishal Kumar Shaw<br>
 [![LinkedIn][linkedin-shield]][linkedin-url2]
 
-Sneha Shaw<br>
+#### Sneha Shaw<br>
 [![LinkedIn][linkedin-shield]][linkedin-url3]
 
-Masud Gazi<br>
+#### Masud Gazi<br>
 [![LinkedIn][linkedin-shield]][linkedin-url4]
 
-Gurjot Singh<br>
+#### Gurjot Singh<br>
 [![LinkedIn][linkedin-shield]][linkedin-url5]
 
-Deepsagar Boral<br>
+#### Deepsagar Boral<br>
 [![LinkedIn][linkedin-shield]][linkedin-url6]
 
 <!-- LICENSE -->
